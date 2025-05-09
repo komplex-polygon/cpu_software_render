@@ -161,10 +161,11 @@ int main(int argc, char *argv[]) {
 
   for(int logs = 1;logs < argc;logs++){
     //printf("#%s#\n",argv[logs]);
-    if (strcmp(argv[logs],"-h") == 0) {
+    /*if (strcmp(argv[logs],"-h") == 0) {
 	printf("list of parameters:\n-no-root //used when using ssh. removes som featches for conpatebility.\n-mode # //what rendering mode to use mono or color\n");
 	return 1;
     }
+    */
     if (strcmp(argv[logs],"-no-root") == 0) {
 	printf("+ (-no-root)\n");
 	//return 1;
